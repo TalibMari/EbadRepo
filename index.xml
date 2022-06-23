@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<note xmlns="http://www.xyz.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.xyz.com Data.xsd">
+    <student>
+        First Name:
+        <name>Usama</name>
+        <age>22</age>
+        <date>2022-05-12</date>
+        <time>05:59:34</time>
+        <DateAndTime>2022-05-12T05:59:34</DateAndTime>
+        <Decimal>10.0</Decimal>
+    </student>
+
+
+    <student>
+        First Name:
+        <name>Rex</name>
+        <age>22</age>
+        <date>2022-05-12</date>
+        <time>05:59:34</time>
+        <DateAndTime>2022-05-12T05:59:34</DateAndTime>
+        <Decimal>10.0</Decimal>
+    </student>
+
+    <student>
+        <name>Abc</name>
+        <age>22</age>
+        <date>2022-05-12</date>
+        <time>05:59:34</time>
+        <DateAndTime>2022-05-12T05:59:34</DateAndTime>
+        <Decimal>10.0</Decimal>
+    </student>
+</note>
