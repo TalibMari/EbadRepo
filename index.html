@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // function checkpattern(){
+
+        // var _uname=document.getElementById('uname').value;
+       // var patt=/^[\+]92[\d]{4}$/;
+
+    //    var email=/^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9]{4}).([a-z]{3})$/;
+        // var pattern=/^[A-Za-z]{2,5}$/;
+
+        // if(_uname.value.match(pattern)){
+      
+        //     _uname.style.color="green";
+
+
+        // }
+        // else{
+        //     _uname.style.color="red";
+        // }
+
+        // if(email.test(_uname)){
+
+        //  document.getElementById('demo').innerHTML="Valid";
+
+        // }
+        // else{
+        //     document.getElementById('demo').innerHTML="InValid";
+
+        // }
+
+        // }
+
+
+//         var data={"Name":"ali","age":20};
+//         var obj=JSON.parse(data);
+//    document.getElementById('demo').innerHTML = obj.Name;
+//         document.write(obj.Name);
+
+    </script>
+</head>
+<body>
+
+    
+<p id="demo"></p>
+  
+    <script>
+//     var data={"Name":"ali","age":20};
+//     var obj=JSON.parse(data);
+// document.getElementById('demo').innerHTML += obj.Name;
+//     document.write(obj.Name);
+
+       fetch('myfile.json')
+             .then(response=>response.json())
+             .then(data=>{
+
+console.log(data);
+ for(var i=0;i<data.length;i++){
+ document.getElementById('demo').innerHTML += data[i].Name +"age is:"+data[i].Age
+         
+
+}
+        
+        
+        });
+
+</script>
+</body>
+</html>
